@@ -3,9 +3,12 @@ import {
   DECREMENT_COUNT,
   RESET_COUNT
 } from "./counter.action";
+//La j'importe mes types (cf action)
 
+//Je creer un store initial, ca rend le code lisible sur l'etat initial du reducer
 const initialState = { count: 0 };
 
+//J'exporte mon reducer pour le combiner avec les autres
 export function counter(state = initialState, action) {
   switch (action.type) {
     case INCREMENT_COUNT:

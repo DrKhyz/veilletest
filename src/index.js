@@ -8,6 +8,8 @@ import { Provider } from "react-redux";
 import store from "./store";
 
 ReactDOM.render(
+  //ici je fait en sorte que mon store soit dans toute mon application
+  //en englobant mon app dans un Provider
   <Provider store={store}>
     <App />
   </Provider>,
