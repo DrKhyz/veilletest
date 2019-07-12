@@ -12,7 +12,7 @@ const CounterView = ({
       <h1>{count}</h1>
       <button onClick={() => onClickIncrement(10)}> +1 </button>
       <button onClick={() => onClickDecrement(10)}> -1 </button>
-      <button onClick={() => onClickReset()}> -1 </button>
+      <button onClick={() => onClickReset()}> reset </button>
     </div>
   );
 };
