@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-import counter from "./pills/counter/counter.reducer.js";
+import { counter } from "./pills/counter/counter.reducer.js";
 // import reducerSup from "./pills/reducerSup/reducerSup.reducer.js";
 
 //NB : Je choisi d'utiliser combineReducers car c'est comme ca dans la plupart des cas
