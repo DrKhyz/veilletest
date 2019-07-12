@@ -1,6 +1,8 @@
 //Ici, je centralise le type de mes actions pour ne pas
 //avoir 50 lignes a modifier si j'ai besoin de changer le nom
 //Je les exporte pour pouvoir les reprendres dans mon reducer.
+
+//@count me permet de connaitre mon reducer lors d'un dispatch dans redux dev tool
 export const INCREMENT_COUNT = "@count/INCREMENT_COUNT";
 export const DECREMENT_COUNT = "@count/DECREMENT_COUNT";
 export const RESET_COUNT = "@count/RESET_COUNT";

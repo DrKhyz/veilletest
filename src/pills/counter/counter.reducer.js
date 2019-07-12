@@ -12,9 +12,9 @@ const initialState = { count: 0 };
 export function counter(state = initialState, action) {
   switch (action.type) {
     case INCREMENT_COUNT:
-      return { ...state, count: state.count + action.payload.count };
+      return { ...state, count: state.count + action.payload };
     case DECREMENT_COUNT:
-      return { ...state, count: state.count - action.payload.count };
+      return { ...state, count: state.count - action.payload };
     case RESET_COUNT:
       return initialState;
     default:
